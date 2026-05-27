@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Capacitación TIC's</title>
+<link rel="stylesheet" href="estilos.css">
+<link rel="icon" href="C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\logo.png.png">
+</head>
+<body>
+<header>
+<img src="C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\logo.png.png" class="logo" alt="Logo">
+<h1>Capacitación en TIC's</h1>
+</header>
+<nav>
+<ul class="menu">
+<li><a href="index.html">Inicio</a></li>
+<li>
+<a>Semestres</a>
+<ul class="submenu">
+<li><a href="tercero.html">Tercer Semestre</a></li>
+<li><a href="cuarto.html">Cuarto Semestre</a></li>
+<li><a href="quinto.html">Quinto Semestre</a></li>
+<li><a href="sexto.html">Sexto Semestre</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section>
+<p>
+La capacitación en Tecnologías de la Información y la Comunicación permite a los estudiantes desarrollar habilidades digitales fundamentales para el mundo actual.
+</p>
+<p>
+Esta formación fortalece el pensamiento lógico, la creatividad y la resolución de problemas tecnológicos.
+</p>
+<h2>🎯 Objetivo</h2>
+<p>
+Formar estudiantes capaces de utilizar herramientas tecnológicas de manera eficiente en el ámbito académico y laboral.
+</p>
+</section>
+<h2>📸 Evidencias</h2>
+<div class="carrusel">
+<img src="C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\promagracion.jpg.png" class="activa">
+<img src="C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\redes.jpg.png">
+<img src="C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\diseño.jpg.png">
+</div>
+<h2>📚 Módulos y Submódulos</h2>
+<table>
+<tr>
+<th>Semestre</th>
+<th>Módulo</th>
+<th>Submódulos</th>
+</tr>
+<tr>
+<td>3°</td>
+<td>Gestión de Archivos y Hojas de Cálculo</td>
+<td>Word / Excel</td>
+</tr>
+<tr>
+<td>4°</td>
+<td>Comunidades Virtuales y Mantenimiento</td>
+<td>Comunidades / Hardware</td>
+</tr>
+<tr>
+<td>5°</td>
+<td>Programación y Sistemas</td>
+<td>Programación / Sistemas</td>
+</tr>
+<tr>
+<td>6°</td>
+<td>Diseño Web y Diseño Digital</td>
+<td>HTML / Diseño</td>
+</tr>
+</table>
+<footer>
+<p>Capacitación TIC's © 2026</p>
+<p>Todos los derechos reservados</p>
+<p>Contacto: alu_232003245@cobachmorelos.edu.mx</p>
+</footer>
+<script>
+let slides = document.querySelectorAll(".carrusel img");
+let actual = 0;
+setInterval(() => {
+slides[actual].classList.remove("activa");
+actual++;
+if(actual >= slides.length){
+actual = 0;
+}
+slides[actual].classList.add("activa");
+}, 3000);
+</script>
+</body>
+</html>

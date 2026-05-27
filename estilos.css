@@ -1,0 +1,120 @@
+body{
+background-image: url("C:\Users\Vic23\OneDrive\Documentos\CAPACITACION\fondo.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+font-family: Arial, sans-serif;
+color: white;
+margin: 0;
+text-align: center;
+}
+header{
+background: rgba(0,0,0,0.7);
+padding: 20px;
+box-shadow: 0px 0px 10px black;
+}
+.logo{
+width: 100px;
+margin: 10px;
+}
+h1{
+color: #ffd700;
+text-shadow: 2px 2px 5px black;
+}
+h2{
+color: #66ccff;
+text-shadow: 2px 2px 5px black;
+}
+p{
+background: rgba(0,0,0,0.5);
+display: inline-block;
+padding: 10px;
+border-radius: 10px;
+}
+.menu{
+list-style: none;
+display: flex;
+justify-content: center;
+background-color: #002f6c;
+margin: 0;
+padding: 0;
+box-shadow: 0px 0px 10px black;
+}
+.menu li{
+position: relative;
+}
+.menu a{
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+cursor: pointer;
+}
+.menu a:hover{
+background-color: #ffd700;
+color: black;
+}
+.submenu{
+display: none;
+position: absolute;
+background-color: #0b3d91;
+list-style: none;
+padding: 0;
+min-width: 200px;
+z-index: 1000;
+}
+.menu li:hover .submenu{
+display: block;
+}
+table{
+width: 80%;
+margin: 20px auto;
+border-collapse: collapse;
+background-color: white;
+color: black;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0px 0px 15px black;
+}
+th{
+background-color: #002f6c;
+color: #ffd700;
+}
+th, td{
+padding: 10px;
+border: 1px solid #ccc;
+}
+.carrusel{
+position: relative;
+width: 320px;
+height: 220px;
+margin: auto;
+overflow: hidden;
+border-radius: 15px;
+box-shadow: 0px 0px 15px black;
+}
+.carrusel img{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+opacity: 0;
+transition: opacity 1s;
+border-radius: 15px;
+}
+.carrusel img.activa{
+opacity: 1;
+}
+img{
+width: 200px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px black;
+}
+footer{
+background-color: rgba(0,0,0,0.8);
+padding: 15px;
+margin-top: 30px;
+box-shadow: 0px 0px 10px black;
+}
